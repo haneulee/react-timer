@@ -3,7 +3,6 @@ const RESTART_TIMER = "RESTART_TIMER";
 const ADD_SECOND = "ADD_SECOND";
 
 // Action Creators 꼭 function 이어야 함!
-
 function startTimer() {
   return {
     type: START_TIMER
